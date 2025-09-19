@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run LibraNet Main",
+      "request": "launch",
+      "mainClass": "lib.Main",
+      "projectName": "LibraNet"
+    },
+    {
+      "type": "java",
+      "name": "Run All JUnit Tests",
+      "request": "launch",
+      "mainClass": "org.junit.platform.console.ConsoleLauncher",
+      "args": [
+        "--class-path", "bin",
+        "--scan-class-path"
+      ],
+      "projectName": "LibraNet"
+    }
+  ]
+}
