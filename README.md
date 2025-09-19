@@ -25,32 +25,6 @@ It demonstrates clean OOP design, reusability, and error handling in Java.
 
 ---
 
-## 📂 Project Structure
-LibraNet/
-│── src/lib/ # Main source files
-│ ├── LibraryItem.java
-│ ├── Book.java
-│ ├── Audiobook.java
-│ ├── EMagazine.java
-│ ├── Playable.java
-│ ├── FinePolicy.java
-│ ├── StandardFinePolicy.java
-│ ├── BorrowRecord.java
-│ ├── FineRecord.java
-│ ├── LibraryService.java
-│ ├── Utils.java
-│ └── Main.java
-│
-│── test/lib/ # Unit tests
-│ ├── UtilsTest.java
-│ └── LibraryServiceTest.java
-│
-│── lib/ # External JARs (JUnit, if not using Maven)
-│── .gitignore
-│── README.md
-
-
----
 
 ## ▶️ How to Run
 
