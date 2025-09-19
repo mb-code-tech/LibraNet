@@ -28,7 +28,31 @@ It demonstrates clean OOP design, reusability, and error handling in Java.
 
 ## ▶️ How to Run
 
+---
 ### Option 1: With **Maven**
 1. Compile:
    ```bash
    mvn clean compile
+
+2.Run main program:
+   ```bash
+   mvn exec:java -Dexec.mainClass="lib.Main"
+
+
+Run tests:
+    ```bash
+    mvn test
+
+### Option 1: Without **Maven**
+1. Compile:
+   ```bash
+javac -d bin -cp "lib/*" src/lib/*.java test/lib/*.java
+
+2. Run main program:
+ ```bash
+java -cp "bin;lib/*" lib.Main
+
+3.Run tests (JUnit):
+```bash
+java -cp "bin;lib/*" org.junit.runner.JUnitCore lib.UtilsTest
+
